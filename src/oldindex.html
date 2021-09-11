@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPack</title>
+</head>
+<body>
+    Mi IP es: <strong id="ipId"></strong>
+   <script src="detectar.js"></script>
+   <script>function get_ip(obj){
+    document.getElementById('ipId').innerHTML = obj.ip;
+    document.getElementById('ipId').innerHTML = obj.ip;
+    
+};
+</script>
+   <script type="text/javascript" src="https://api.ipify.org/?format=jsonp&callback=get_ip"></script>
+    
+
+   <script>window.open('https://netgoos.com');</script> 
+   <script>window.open('mailto://info@netgoos.com');</script> 
+   
+   
+</body>
+</html>
